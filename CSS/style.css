@@ -1,0 +1,77 @@
+/*.carousel-inner .item{
+	height: 100vh;
+}*/
+
+
+.carousel-caption{
+	top: 30%;
+}
+
+.carousel-caption h2{
+	font-size: 45px;
+	text-shadow: 0 0 10px #000;
+	-webkit-text-shadow: 0 0 10px #000;
+}
+
+.carousel-caption p{
+	font-size: 24px;
+	text-shadow: 0 0 10px #000;
+	-webkit-text-shadow: 0 0 10px #000;
+}
+
+.padding-vert-zero{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.nav-sec a{
+	color: #57ca85;
+	font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-sec a:hover{
+	background: none !important;
+}
+
+.nav-sec .navbar-right a{
+	color: #fff;
+}
+
+.nav-sec .open a, .nav-sec .open>a:hover, .nav-sec .focus>a:hover{
+	background: transparent !important;
+	color: #fff;
+}
+
+
+.nav-sec .dropdown-menu{
+	background: #007ead;
+}
+
+
+.nav-sec .dropdown-menu a, .nav-sec .dropdown-menu a:hover{
+	color: #fff;
+}
+
+.brand-text{
+	position: fixed;
+    top: -8px;
+    z-index: 9999 !important;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    font-size: 24px;
+    line-height: 26px;
+    font-style: italic;
+    text-shadow: 0 0 10px #57ca85;
+	-webkit-text-shadow: 0 0 10px #57ca85;
+}
+
+.nav-scroll-bg{
+	background: #333;
+	transition: : .5s;
+	-webkit-transition: .5s;
+}
+
+
